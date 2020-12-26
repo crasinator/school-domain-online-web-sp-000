@@ -2,7 +2,7 @@
 
 class School 
   attr_accessor :name
-  attr_writer :sort
+  attr_writer :sort :roster
   
   
   def initialize(name)
@@ -27,7 +27,7 @@ class School
   end 
   
   def sort 
-    self.roster.each do |ween, arr|
+    self.roster.each do |classroom, arr|
       arr.sort!
     end 
   end 
