@@ -2,7 +2,7 @@
 
 class School 
   attr_accessor :name
-  attr_writer :sort :roster
+  attr_writer :sort, :roster
   
   
   def initialize(name)
