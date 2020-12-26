@@ -22,13 +22,5 @@ class School
     @roster
   end 
 
-  def grade(num)
-    return roster[num] 
-  end 
-  
-  def sort 
-    roster[grade].sort
-  end 
-
 end 
  
