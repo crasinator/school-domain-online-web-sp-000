@@ -11,11 +11,11 @@ class School
     @roster = { }
   end
   
-  def add_student(stuname, grade)
-     if roster.has_key?(grade)
-       roster[grade] << stuname
+  def add_student(stuname, class_num)
+     if roster.has_key?(class_num)
+       roster[class_num] << stuname
      else 
-       roster[grade] = [stuname]
+       roster[class_num] = [stuname]
      end 
   end 
 
@@ -24,7 +24,7 @@ class School
   end 
   
   def sort 
-    self.roster.each do |classroom, arr|
+    self.roster.each do |class_num, arr|
       arr.sort!
     end 
   end 
