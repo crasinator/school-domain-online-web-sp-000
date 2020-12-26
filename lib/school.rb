@@ -22,7 +22,8 @@ class School
     @roster
   end 
 
-  def grade 
+  def grade(class_num)
+    class_num
   end 
   
 end 
