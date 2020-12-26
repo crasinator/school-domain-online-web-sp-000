@@ -1,8 +1,8 @@
 # code here!
 
 class School 
-  attr_accessor :name
-  attr_writer :sort, :roster
+  attr_accessor :name, :roster
+  attr_writer :sort
   
   
   def initialize(name)
