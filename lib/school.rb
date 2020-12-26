@@ -18,10 +18,6 @@ class School
      end 
   end 
 
-  def roster 
-    @roster
-  end 
-
   def grade(class_num)
     roster[class_num]
   end 
