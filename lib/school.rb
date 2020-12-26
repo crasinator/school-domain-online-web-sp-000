@@ -23,7 +23,7 @@ class School
   end 
 
   def grade(class_num)
-    class_num
+    roster[class_num]
   end 
   
 end 
