@@ -2,8 +2,8 @@
 
 class School 
   attr_accessor :name 
-  attr_reader :roster
-  attr_writer :sort
+  attr_reader :roster #def roster return roster end 
+  attr_writer :sort 
   
   
   def initialize(name)
