@@ -27,9 +27,8 @@ class School
   end 
   
   def sort 
-    roster.each do |ween, arr|
-      ween.sort
-      arr.sort
+    self.roster.each do |ween, arr|
+      arr.sort!
     end 
   end 
 end 
