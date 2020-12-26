@@ -26,5 +26,10 @@ class School
     roster[class_num]
   end 
   
+  def sort 
+    roster.each do |ween, arr|
+      arr.sort
+    end 
+  end 
 end 
  
